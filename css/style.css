@@ -53,3 +53,52 @@ img {
 address {
   font-style: normal;
 }
+
+.container {
+  width: 1360px;
+  padding-left: 28px;
+  padding-right: 28px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header */
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  line-height: 1.21;
+
+  color: var(--secondary-text-color);
+  margin-right: auto;
+}
+
+.logo-img {
+  margin-right: 10px;
+}
+
+.accent {
+  color: var(--accent-color);
+  margin-right: 4px;
+}
+
+.header-nav-link {
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+  padding: 20px 0;
+  display: inline-block;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 40px;
+}
