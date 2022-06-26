@@ -22,7 +22,7 @@
       rel="stylesheet"
     />
 
-    <!-- normalaze -->
+    <!-- normalize -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css"
@@ -32,7 +32,8 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!--Шапка-->
+
+    <!--header-->
     <header class="header">
       <div class="container">
         <nav class="header-nav">
@@ -50,7 +51,7 @@
       
     </header>
 
-    <!--Основной контент-->
+    <!--hero-->
     <main>
       <section class="hero">
         <div class="container">
@@ -61,45 +62,49 @@
         
       </section>
 
-      <!-- Про нас -->
-      <section>
-        <h2>About</h2>
-        <ul>
-          <li>
-            <h3>Investmant Banking</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
-            </p>
-          </li>
-          <li>
-            <h3>Portfolio Manager</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
-            </p>
-          </li>
-          <li>
-            <h3>Tax & Custudio</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
-            </p>
-          </li>
-        </ul>
+      <!--about us-->
+      <section class="about">
+        <div class="container">
+          <h2 class="visually-hidden">About</h2>
+          <ul class="about-list list">
+            <li class="about-item">
+              <h3 class="about-list-title">Investmant Banking</h3>
+              <p class="about-list-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
+              </p>
+            </li>
+            <li class="about-item">
+              <h3 class="about-list-title">Portfolio Manager</h3>
+              <p class="about-list-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
+              </p>
+            </li>
+            <li class="about-item">
+              <h3 class="about-list-title">Tax & Custudio</h3>
+              <p class="about-list-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <!-- Рішення -->
-      <section>
+      <!--solutions-->
+      <section class="solutions">
         <img src="./images/solutions/solutions.jpg" alt="team" width="680" height="460" />
-        <h2>What you are looking for</h2>
-        <h3>We provide bespoke solutions</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
-          quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
-          itaque rerum temporibus doloribus iste maiores deleniti?
-        </p>
-        <button type="button">Read More</button>
+        <div class="solutions-wrapper">
+          <h2 class="solutions-primary-title">What you are looking for</h2>
+          <h3 class="solutions-secondary-title">We provide bespoke solutions</h3>
+          <p class="solutions-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
+            quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
+            itaque rerum temporibus doloribus iste maiores deleniti?
+          </p>
+          <button class="solutions-button" type="button">Read More</button>
+        </div>
       </section>
 
-      <!--Бизнес кейс-->
+      <!--Бізнес кейс-->
       <section>
         <h2>This is what we do</h2>
         <h3>Business Cases</h3>
@@ -212,7 +217,7 @@
       </section>
     </main>
 
-    <!--Подвал-->
+    <!--footer-->
     <footer>
       <!-- <ul>
         <li>
