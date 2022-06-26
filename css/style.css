@@ -102,3 +102,47 @@ address {
 .header-nav-item:not(:last-child) {
   margin-right: 40px;
 }
+
+/* hero */
+
+.hero {
+  background-color: tomato;
+ text-align: center;
+ padding-bottom: 285px;
+ padding-top: 285px;
+}
+.hero-title {
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  text-align: center;
+
+  color: var(--hero-text-color);
+
+  margin-bottom: 21px;
+}
+.hero-text {
+  font-size: 22px;
+  line-height: 1.67;
+
+  text-align: center;
+
+  color: var(--hero-text-color);
+  margin-bottom: 29px;
+}
+
+.button {
+  background-color: var(--accent-color);
+  border-radius: 5px;
+
+  font-family: 'Open Sans';
+
+  font-size: 18px;
+  line-height: 1.56;
+
+  color: var(--secondary-text-color);
+
+  padding: 10px 30px 10px 41px;
+  border: none;
+
+}
