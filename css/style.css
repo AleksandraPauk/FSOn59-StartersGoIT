@@ -65,16 +65,17 @@ address {
 
 /* header */
 
-.header, .hero {
-  background-image: url(../images/Rectangle.jpg);
-  /* width: 1360px;
-  margin: 0 auto; */
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .header {
   background-color: tomato;
+}
+
+header > .container {
+  position: relative;
+}
+
+.header-container {
+  position: absolute;
+  z-index: 1;
 }
 
 .logo {
@@ -111,6 +112,7 @@ address {
 .header-nav-list {
   display: flex;
   align-items: center;
+  margin-left: 557px;
 }
 
 .header-nav-item:not(:last-child) {
@@ -124,6 +126,11 @@ address {
 
   background-color: tomato;
   text-align: center;
+
+  position: relative;
+  background-image: url(../images/Rectangle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-title {
