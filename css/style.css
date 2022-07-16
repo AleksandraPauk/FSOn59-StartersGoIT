@@ -425,7 +425,7 @@ header > .container {
 font-weight: 300;
 font-size: 38px;
 line-height: 1.26;
-/* margin-top: 0; */
+
 margin-bottom: 34px;
 color: var(--primary-text-color);
 }
@@ -441,7 +441,7 @@ color: var(--primary-text-color);
   width: 620px;
   height: 40px;
   padding: 5px;
-  /* padding-left: 5px; */
+  
   background: var(--bg-color);
   border: 1px solid #F5F5F5;
   border-radius: 0px;
