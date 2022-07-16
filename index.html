@@ -258,12 +258,18 @@
         />
         <form class="form-callback">
           <h2 class="callback-title">Request Callback</h2>
-          <input type="text" id="name-client" class="callback-input" name="name" placeholder=" " required />
-          <label for="name-client" class="callback-label">Enter your name
-          </label>
-          <input type="email" id="email-client" class="callback-input" name="email" placeholder=" " required />
+          <div class="callback-file">
+            <input type="text" id="name-client" class="callback-input" name="name" placeholder=" " required />
+            <label for="name-client" class="callback-label">Enter your name
+            </label>
+          </div>
+          
+          <div class="callback-file">
+            <input type="email" id="email-client" class="callback-input" name="email" placeholder=" " required />
           <label for="email-client" class="callback-label">Enter email*
           </label>
+          </div>
+          
           <button type="submit" class="button submit">Send</button>
         </form>
       </div>
