@@ -1,0 +1,53 @@
+.header {
+  background-color: tomato;
+}
+
+header > .container {
+  position: relative;
+}
+
+.header-container {
+  position: absolute;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  line-height: 1.21;
+
+  color: var(--secondary-text-color);
+  margin-right: auto;
+}
+
+.logo-img {
+  margin-right: 10px;
+}
+
+.accent {
+  color: var(--accent-color);
+  margin-right: 4px;
+}
+
+.header-nav-link {
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+  padding: 20px 0;
+  display: inline-block;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  margin-left: 557px;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 40px;
+}
