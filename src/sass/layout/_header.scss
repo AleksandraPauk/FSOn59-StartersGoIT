@@ -1,14 +1,12 @@
 .header {
-  background-color: tomato;
-}
-
-header > .container {
-  position: relative;
-}
-
-.header-container {
-  position: absolute;
+  position: fixed;
+  width: 100%;
   z-index: 1;
+}
+
+.header .container {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .logo {
