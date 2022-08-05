@@ -28,4 +28,15 @@
     text-align: center;
     color: var(--hero-text-color);
   }
+  &-button {
+    position: relative;
+
+    &-img {
+      position: absolute;
+      left: 27px;
+      top: 16px;
+      width: 9px;
+      height: 16px;
+    }
+  }
 }
