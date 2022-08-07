@@ -61,7 +61,8 @@
   transform: translateY(20px);
 }
 
-.button.submit {
+.callback-btn {
+  @extend .button;
   display: block;
   position: absolute;
   width: 620px;
@@ -71,4 +72,7 @@
 
   line-height: 1.39;
   text-align: center;
+
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
 }
