@@ -30,6 +30,10 @@
   }
   &-button {
     position: relative;
+    @extend .button;
+    padding: 10px 30px 10px 41px;
+    background-color: var(--accent-color);
+    color: var(--secondary-text-color);
 
     &-img {
       position: absolute;

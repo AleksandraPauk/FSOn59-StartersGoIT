@@ -43,6 +43,9 @@
   margin-right: 8px;
   margin-bottom: 8px;
   width: 320px;
+
+  overflow: hidden;
+  background-color: #00000060;
 }
 
 .cases-items:nth-child(4n) {
@@ -50,4 +53,26 @@
 }
 .cases-items:nth-last-child(-n + 4) {
   margin-bottom: 0;
+}
+
+.cases-link {
+  display: block;
+
+  transition: transform 500ms linear;
+}
+
+.cases-link:hover,
+.cases-link:focus {
+  transform: scale(1.1);
+}
+
+.cases-link:hover .overlay,
+.cases-link:focus .overlay {
+  opacity: 0.5;
+}
+
+.overlay {
+  background-color: black;
+  opacity: 1;
+  transition: opacity 500ms linear;
 }
